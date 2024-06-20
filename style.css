@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.navbar input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.sidebar {
+    background-color: #1f1f1f;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+.album-cover, .artist-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.albums, .playlists {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.album, .playlist {
+    text-align: center;
+}
+
+.album img, .playlist img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.album p, .playlist p {
+    margin-top: 10px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #575757;
+}
